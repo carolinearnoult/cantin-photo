@@ -5,8 +5,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/image");
 
     return {
-        
-        passthroughFileCopy: true
+
+        passthroughFileCopy: true,
 
         dir: {
             input: "src",
