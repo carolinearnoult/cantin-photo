@@ -1,8 +1,9 @@
 backend:
   name: git-gateway
-  branch: main
+
 
   publish_mode: editorial_workflow
+
 
   media_folder: "public/image/uploads" 
   public_folder: "/image/uploads"
