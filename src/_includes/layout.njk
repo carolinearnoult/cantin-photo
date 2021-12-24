@@ -16,6 +16,12 @@
 <body>
     {{ content | safe }}
     {% include "footer.njk" %}
+
+    <!-- Netlify Identity Widget -->
+  {% if path == "home" %}
+  <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  {% endif %}
+  
     <script src="/script.js"></script>
 </body>
 </html>

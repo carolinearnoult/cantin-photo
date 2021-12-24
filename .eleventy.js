@@ -4,6 +4,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addWatchTarget("./src/css");
     eleventyConfig.addPassthroughCopy("./src/image");
     eleventyConfig.addPassthroughCopy("./src/script.js");
+     eleventyConfig.addPassthroughCopy("./src/admin");
 
     return {
 
